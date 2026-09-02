@@ -1,0 +1,6 @@
+{
+  "name": "Blog UI",
+  "description": "A clean React blog layout with search, category filtering, reading time estimates, and full article view.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
