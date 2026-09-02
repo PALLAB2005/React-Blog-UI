@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# React Blog UI
 
-# Run and deploy your AI Studio app
+A modern and responsive React-based blog interface that displays blog posts dynamically from a JSON file. The project includes search and filter functionality to help users quickly find relevant posts.
 
-This contains everything you need to run your app locally.
+## 🚀 Project Overview
 
-View your app in AI Studio: https://ai.studio/apps/1e97f530-94dc-4d74-8fd4-8bd4d5b2dbf3
+This project is built with React and demonstrates how to create a dynamic blog layout using reusable components.
 
-## Run Locally
+Blog posts are stored in a JSON file and rendered dynamically using React. Users can search for posts by title or content and filter posts based on categories.
 
-**Prerequisites:**  Node.js
+## 🎯 Objectives
 
+- Build a React-based blog layout
+- Display blog posts dynamically from JSON data
+- Create reusable React components
+- Implement search functionality
+- Implement category filtering
+- Practice React state management
+- Practice dynamic rendering
+- Create a responsive user interface
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## ✨ Features
+
+- 📝 Dynamic blog post cards
+- 🔍 Search blog posts
+- 🏷️ Filter posts by category
+- 📄 JSON-based blog data
+- ⚛️ Reusable React components
+- 📱 Responsive design
+- 🎨 Clean and modern UI
+- ⚡ Fast client-side filtering
+
+## 🧩 Main Components
+
+### Header
+
+Contains the blog title and navigation elements.
+
+### SearchBar
+
+Allows users to search blog posts by entering keywords.
+
+```jsx
+<SearchBar
+  searchTerm={searchTerm}
+  setSearchTerm={setSearchTerm}
+/>
